@@ -25,12 +25,11 @@ app.secret_key = "adtekdev"
 
 ### LIÊN KẾT TỚI DB MONGO
 
-client = pymongo.MongoClient("mongodb+srv://db01:<password>@cluster0-eapdp.mongodb.net/test?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://db01:csdl001@cluster0-eapdp.mongodb.net/test?retryWrites=true&w=majority")
 db = client.test
 
 cluster = MongoClient(MONGO_URI)
 
-db =  cluster.heroku_phqfm0rw  # cluster["heroku_phqfm0rw"]
 
 
 ### CODE Flask - Python Web
